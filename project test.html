@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Preview</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="image">
+    Hover over an image below to display here.
+</div>
+<div class="thumbnails">
+    <img src="https://via.placeholder.com/150" alt="First Image" onmouseover="upDate(this)" onmouseout="undo()">
+    <img src="https://via.placeholder.com/200" alt="Second Image" onmouseover="upDate(this)" onmouseout="undo()">
+    <img src="https://via.placeholder.com/250" alt="Third Image" onmouseover="upDate(this)" onmouseout="undo()">
+</div>
+<script src="script.js"></script>
+</body>
+</html>
